@@ -1,0 +1,28 @@
+.menu-item {
+  display: flex;
+  vertical-align: center;
+  font-size: 4vh;
+  height: 6vh;
+  width: 80%;
+  margin-top: 3vh;
+  position: relative;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 1vh;
+  border-image-source: linear-gradient(
+      to right,
+      #8F7DD1,//purple
+      #AB74B4,//purple
+      #E0558E,//pink
+      #F7749E,//pink
+      #F0CE6D,//yellow
+      #F7F77E//yellow
+  );
+
+  div {
+    //position: absolute;
+    //top:35%;
+    display: flex;
+    align-items: center;
+  }
+}

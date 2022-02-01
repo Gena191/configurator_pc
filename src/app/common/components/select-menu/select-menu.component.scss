@@ -1,31 +1,27 @@
 nav {
   height: 10vh;
-  display: flex;
-  flex-direction: row;
 
+  display: flex;
   a {
     text-decoration: none;
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
     background-color: black;
     color: white;
     height: 100%;
+    width: (100%/3);
 
 
     &:hover {
-      olor: white;
-      background-color: purple;
+      color: white;
+      background-color: #d53a9d;
 
     }
 
-    &:active {
-      background-color: black;
-    }
   }
 
 }
-.isSelectedMenuItem {
-  background-color: purple
+.isSelectedMenuItem{
+  background-color: #d53a9d!important;
 }
