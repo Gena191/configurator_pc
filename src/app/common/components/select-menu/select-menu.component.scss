@@ -1,0 +1,27 @@
+nav {
+  height: 10vh;
+
+  display: flex;
+  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: (100%/3);
+
+
+    &:hover {
+      color: white;
+      background-color: #d53a9d;
+
+    }
+
+  }
+
+}
+.isSelectedMenuItem{
+  background-color: #d53a9d!important;
+}

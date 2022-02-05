@@ -1,0 +1,14 @@
+<div class="select-menu">
+  <nav>
+    <a *ngFor="let item of menuItems"
+       routerLink={{item.url}}
+       (click)="isSelectedMenu(item.url)"
+       [ngClass]="{isSelectedMenuItem: item.isSelected}"
+      >
+      <mat-icon>{{item.iconName}}</mat-icon>
+    </a>
+  </nav>
+  <router-outlet></router-outlet>
+
+</div>
+
